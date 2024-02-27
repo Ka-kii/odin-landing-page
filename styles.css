@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #463043;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 900;
+}
+.text {
+    font-size: 16px;
+    color: #e1e1e1
+}
+
+.button-primary {
+    color: white;
+    background-color: #AF1B40;
+}
+
+.button-secondary {
+    color: white;
+    border-color: white;
+}
+
+.header, .hero {
+    background-color: #463043;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding: 0px;
+}
