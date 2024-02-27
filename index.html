@@ -7,12 +7,14 @@
 </head>
 <body>
     <div class="header">
-        <img src="images/Logo.svg" alt="logo">
+        <img src="images/Logo.svg" alt="logo" width="200px" height="auto">
+        <div class="navigation">
         <ul>
-            <li> <a href="#block-1" header link one > </a> </li>
-            <li> <a href="#block-2" header link two > </a> </li>
-            <li> <a href="#block-3" header link three > </a> </li>
+            <li> <a href="#block-1">header link one </a> </li>
+            <li> <a href="#block-2">header link two </a> </li>
+            <li> <a href="#block-3">header link three </a> </li>
         </ul>
+    </div>
     </div>
     <div class="hero">
     <div class="hero-text">
@@ -20,43 +22,52 @@
     <div class="text">
         This website has some subtext that goes here under the main title. 
         It's a smaller font and the color is lower contrast
-    </div>
-    <div class="button-primary">
-    <button>
+    </div> 
+    <button type="button" class="primary">
         Sign up
     </button>
-    </div>
     </div>
     <img src="images/hero-image.png" alt="hero-image" height=300px width=auto>
     </div>
     <div id="block-1">
-        <h2>Some random information.</h2>
+        <h2 style="text-align: center;"> Some random information. </h2>
+        <div class="card-container">
         <div class="card">
-            <img src="images/card-1.png" alt="card-1">
-            <div class="text">
+            <div class="card-img">
+            <img src="images/card-1.png" alt="card-1" height="150px" width="auto">
+            </div>
+            <div class="text-dark">
                 this is some subtext under an illustration or image
             </div>
         </div>
         <div class="card">
-            <img src="images/card-2.png" alt="card-2">
-            <div class="text">
+            <div class="card-img">
+            <img src="images/card-2.png" alt="card-2" height="150px" width="auto">
+            </div>
+            <div class="text-dark">
                 this is some subtext under an illustration or image
             </div>
         </div>
         <div class="card">
-            <img src="images/card-3.png" alt="card-3">
-            <div class="text">
+            <div class="card-img">
+            <img src="images/card-3.png" alt="card-3" height="150px" width="auto">
+            </div>
+            <div class="text-dark">
                 this is some subtext under an illustration or image
             </div>
         </div>
         <div class="card">
-            <img src="images/card-4.png" alt="card-4">
-            <div class="text">
+            <div class="card-img">
+            <img src="images/card-4.png" alt="card-4" height="150px" width="auto">
+            </div>
+            <div class="text-dark">
                 this is some subtext under an illustration or image
             </div>
+        </div>
         </div>
     </div>
     <div id="block-2">
+        <div class="quote-container">
         <div class="quote">
             This is an inspiring quote, or a testimonial from a customer. 
             Maybe it's just filling up space, or maybe people will actually 
@@ -66,6 +77,7 @@
             -Thor, God of Thunder
         </div>
     </div>
+    </div>
     <div id="block-3">
         <div class="cta">
             <div class="cta-text">
@@ -74,9 +86,7 @@
                 Sign up for our product by clicking that button right over there!
             </div>
             </div>
-            <div class="button-secondary">
-            <button>Sign up</button>
-            </div>
+            <button type="button" class="secondary">Sign up</button>
         </div>
     </div>
     <div class="footer">
